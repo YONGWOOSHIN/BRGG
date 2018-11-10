@@ -3,7 +3,7 @@ class CreateDevicesTable < ActiveRecord::Migration[5.2]
     create_table :devices do |t|
       t.integer :user_id
       t.string  :os
-      t.string  :device_name
+      t.string  :device_ver
       t.string  :token
     end
   end
