@@ -4,6 +4,7 @@ class CreateDevicesTable < ActiveRecord::Migration[5.2]
       t.integer :user_id
       t.string  :os
       t.string  :device_name
+      t.string  :token
     end
   end
 end
